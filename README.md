@@ -6,15 +6,20 @@ This requires a Giphy API key to work.
 * In the project directory where the package.json resides, create a file named 'secret.js':
 ```javascript
 module.exports = 'YOUR API KEY GOES HERE';
+```
 ## To Run
 Install dependencies
+
 ```javascript
  npm install
 ```
+
 Once they are installed, run the server:
+
 ```javascript
  npm start
 ```
+
 * Your browser will open a page with QR Code. 
 * Open the Expo app and scan the code. The app will open on your phone.
 
